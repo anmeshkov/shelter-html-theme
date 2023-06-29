@@ -6,7 +6,11 @@
 Shelter - это проект, состоящий из двух страниц.  
 [Макет в Figma](https://www.figma.com/file/Yk6EnbY63FyG2PJTFkJDMh/shelter)
 ___
-[img]
+![FireShot Capture 015 - Cozy House - Shelter for pets in Boston - About the shelter - 127 0 0 1](https://user-images.githubusercontent.com/97451331/227164388-c595ac8a-c186-432e-8d5b-07bd5731fcf3.png)
+
+![FireShot Capture 017 - Cozy House - Shelter for pets in Boston - Our pets - 127 0 0 1](https://user-images.githubusercontent.com/97451331/227164654-aba1b1aa-dc26-42ad-8823-91ac842cef56.png)
+
+![image](https://user-images.githubusercontent.com/97451331/229359902-8e76b658-6ec5-4f19-ab92-45f51da3b7c9.png)
 ___
 
 ## Технические требования
