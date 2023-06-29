@@ -1,0 +1,52 @@
+/* Mobile Navigation
+========================================================================== */
+.burger-button {
+    display: none;
+    flex: 0 0 30px;
+    height: 30px;
+    padding: 0;
+    /* border: 1px solid #ffffff; */
+    background: inherit;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.burger-button::before,
+.burger-button::after,
+.burger-line {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    /* background: #F1CDB3; */
+    position: absolute;
+}
+
+ 
+.burger-button.brown::before,
+.burger-button.brown::after,
+.burger-button.brown .burger-line {
+    background: #F1CDB3;
+}
+
+.burger-button.black::before,
+.burger-button.black::after,
+.burger-button.black .burger-line {
+    background: #000000;
+}
+
+.burger-button::before {
+    top: 0px;
+    left: 0;
+}
+
+.burger-button::after {
+    bottom: 5px;
+    left: 0;
+}
+
+.burger-line {
+    bottom: 16px;
+    left: 0;
+}

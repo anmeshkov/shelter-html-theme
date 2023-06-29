@@ -1,0 +1,466 @@
+@media screen and (max-width: 1000px) {
+    .about__wrapper {
+        justify-content: space-between;
+    }
+
+    .about-content,
+    .about-pets {
+        width: 48%;
+        margin: 0;
+    }
+
+    .pets-card:nth-child(1n+7) {
+        display: none;
+    }
+
+    .footer {
+        padding-top: 30px;
+    }
+
+    .footer-content__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links__wrapper {
+        justify-content: center;
+        column-gap: 5.5%;
+    }
+
+    .footer-image {
+        width: 42.5%;
+        padding-bottom: 52.5%;
+        overflow: hidden;
+        position: relative;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    /* --------| header |-------- */
+    .start-screen__content {
+        padding: 29px 0 0 0;
+    }
+
+    .content__wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 100px;
+    }
+
+    .content {
+        width: 64.97%;
+        transform: translateY(0);
+    }
+
+    .content__buttons {
+        text-align: center;
+    }
+
+    .content__image {
+        width: 80.36%;
+        padding-bottom: 83.5%;
+        align-self: flex-end;
+    }
+
+    /* --------| /header |-------- */
+
+    /* --------| About |-------- */
+    .about {
+        padding: 66px 0 35px 0;
+    }
+
+    .about__wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .about-content {
+        width: 60.73%;
+    }
+
+    .about-pets {
+        width: 42.37%;
+        padding-bottom: 76%;
+        margin: 0;
+    }
+
+    /* --------| /about |-------- */
+
+    /* --------| pets |-------- */
+    .pets {
+        padding: 80px 0 77px 0;
+    }
+
+    .pets-card__wrapper {
+        margin: 0 11px;
+    }
+
+    /* .pets-card {
+        flex: 0 0 270px;
+    } */
+
+    .pets-section__title {
+        margin: 0 auto 30px auto;
+    }
+
+    .pets-slider {
+        margin: 0 0 35px 0;
+    }
+
+    /* --------| /pets |-------- */
+
+
+
+    /* --------| help |-------- */
+    /* .help__list {
+        column-gap: 8.4%;
+    }*/
+
+    .help__list {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(170px, 230px));
+        column-gap: normal;
+        justify-content: center;
+    }
+
+    /* --------| /help |-------- */
+
+    /* --------|  |-------- */
+    .donation {
+        padding: 80px 0 102px 0;
+    }
+
+    .donation__wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .donation-content {
+        width: 53.66%;
+    }
+
+    .donation-dog {
+        margin-right: 0;
+        width: 71%;
+        padding-bottom: 45%;
+    }
+
+    /* --------|  |-------- */
+
+
+
+
+    /* --------|  |-------- */
+    /* --------|  |-------- */
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .header__wrapper {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .burger-button {
+        display: block;
+    }
+
+    .pets-card__wrapper {
+        justify-content: center;
+    }
+
+    .pets-card {
+        flex: 0 1 auto;
+    }
+
+    .footer-contacts,
+    .footer-location {
+        /* width: 25%; */
+        flex: 1 1 auto;
+    }
+
+    /* footer */
+    .footer-links__wrapper {
+        column-gap: 10%;
+        row-gap: 33px;
+    }
+
+    .footer-block__title {
+        /* font-size: 1.6rem; */
+        font-size: 25px;
+    }
+
+    .footer-list {
+        /* font-size: 1.3rem; */
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .about-content__title {
+        text-align: center;
+    }
+
+    .help__list {
+        grid-template-columns: repeat(2, minmax(min-content, 230px));
+    }
+
+    .donation-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* .donation-content__title {
+        width: 100%;
+    } */
+
+    .pets-card {
+        flex: 0 0 270px;
+    }
+
+    .pets-card:nth-child(1n+4) {
+        display: none;
+    }
+
+    .donation-btn__creditcard {
+        min-width: auto;
+    }
+
+    .footer-block__title {
+        text-align: center;
+    }
+
+    .footer-links__wrapper {
+        flex-direction: column;
+        /* width: 90%; */
+    }
+
+    .footer-contacts>.footer-list>.footer-list__item {
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .content__heading,
+    .about-content__title,
+    .pets-section__title,
+    .donation-content__title,
+    .pets-section__title {
+        font-size: 28px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+
+    .pets-slider {
+        flex-direction: column;
+    }
+
+    .slider-pagination__wrapper {
+        column-gap: 3%;
+    }
+
+    .descktop__buttons {
+        display: none;
+    }
+
+    .mobile__buttons {
+        display: flex;
+        justify-content: center;
+        column-gap: 78%;
+        margin-top: 40px;
+    }
+
+    .help-list__item span {
+        font-size: 15px;
+        line-height: 110%;
+    }
+
+    .donation-content__text {
+        text-align: justify;
+    }
+
+    .donation-btn__creditcard span {
+        font-size: 15px;
+    }
+
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .content__heading,
+    .about-content__title,
+    .pets-section__title,
+    .donation-content__title,
+    .pets-section__title,
+    .donation-content__title {
+        font-size: 25px;
+    }
+
+    .content__image {
+        width: 86.36%;
+        padding-bottom: 91.5%;
+    }
+
+    .about {
+        padding: 27px 0 35px 0;
+    }
+
+    .about-content {
+        width: 90%;
+    }
+
+    .about-content__text p+p {
+        margin-top: 23px;
+    }
+
+    .about-pets {
+        width: 100%;
+        padding-top: 41%;
+        margin-top: 27px;
+    }
+
+    .pets-slider {
+        margin: 0 0 39px 0;
+    }
+
+    .pets {
+        padding: 41px 0 40px 0;
+    }
+
+    /* .pets-card__image {
+        padding-bottom: 87%;
+        margin: 0 0 48px 0;
+    } */
+
+    .mobile__buttons {
+        display: flex;
+        justify-content: center;
+        margin-top: 18px;
+    }
+
+    .help {
+        padding: 41px 0 42px 0;
+    }
+
+    .pets-section__title {
+        margin: 0 auto 42px auto;
+    }
+
+    .help__list {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        column-gap: 7%;
+    }
+
+    .help-list__item img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+
+    .donation {
+        padding: 42px 0 42px 0;
+    }
+
+    .donation-content__subtitle {
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 160%;
+    }
+
+    .donation-content__text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .donation-dog {
+        width: 88%;
+        padding-bottom: 59%;
+    }
+
+    .footer-image {
+        width: 86.5%;
+        padding-bottom: 101.5%;
+    }
+
+    .footer-location > .footer-block__title {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .footer-list__item+.footer-list__item {
+        margin: 0;
+    }
+
+    .footer-contacts > .footer-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 27px;
+    }
+
+    .footer-location > .footer-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+
+
+}
+
+@media screen and (max-width: 319px) {
+    .help__list {
+        grid-template-columns: 1fr;
+    }
+
+    .pets-card {
+        flex: 1 1 auto;
+    }
+
+    .btn-first-pagination,
+    .btn-last-pagination {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 260px) {
+    .header-logo{
+        display: none;
+    }
+
+    .header__wrapper {
+        justify-content: end;
+    }
+}

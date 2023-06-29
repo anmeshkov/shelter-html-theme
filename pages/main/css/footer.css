@@ -1,0 +1,97 @@
+/* Footer
+========================================================================== */
+.footer {
+    background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+
+    background-image: url("../../../assets/images/start-screen-background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.footer-content__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-links__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 15.5%;
+}
+
+.footer-contacts,
+.footer-location {
+    /* width: 25%; */
+    flex: 0 0 300px;
+}
+
+.footer-block__title {
+    margin: 0 0 32px 0;
+    font-family: var(--title-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.188rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: var(--footer-title-color);
+}
+
+.footer-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    /* font */
+    font-family: var(--title-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: var(--color-primary);
+}
+
+.footer-list__item {
+    display: flex;
+    align-items: center;
+    min-height: 45px;
+}
+
+.footer-list__item > i {
+    margin-right: 20px;
+    transition: color .2s ease-in-out;
+}
+
+.footer-list__item+.footer-list__item {
+    margin: 27px 0 0 0;
+}
+
+.footer-list__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-list__item:hover {
+    color: #FFFFFF;
+}
+
+.footer-list__item:hover > i {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7500%) hue-rotate(130deg) brightness(117%) contrast(105%);
+}
+
+.footer-image {
+    width: 29.5%;
+    padding-bottom: 29.5%;
+    overflow: hidden;
+    position: relative;
+} 
+
+.footer-image img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,53 @@
+/* Help
+========================================================================== */
+.help {
+    padding: 80px 0 100px 0;
+    background-color: var(--section-second-bg-color);
+}
+
+.help-section__title {
+    margin-bottom: 60px;
+}
+
+.help__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* column-gap: 119px;
+    row-gap: 56px; */
+    column-gap: 10%;
+    row-gap: 55px;
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.help-list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.help-list__item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.help-list__item span {
+    display: block;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}

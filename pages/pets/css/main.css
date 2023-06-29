@@ -1,0 +1,195 @@
+/* Document - основные стили
+========================================================================== */
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --body-bg-color: #FFFFFF;
+    --section-bg-color: #F6F6F6;
+    --section-second-bg-color: #FFFFFF;
+    /* fonts style */
+    --body-font-family: 'Arial';
+    --title-font-family: 'Georgia';
+    --btn--font-family: 'Georgia';
+    --body-font-size: 15px;
+    --body-line-height: 1.6;
+    --body-font-weight: 400;
+    --body-color: #4C4C4C;
+    --title-color: #545454;
+    --footer-title-color: #FFFFFF;
+    --color-primary: #F1CDB3;
+
+}
+
+body {
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    font-weight: var(--body-font-weight);
+    color: var(--body-color);
+    text-align: left;
+    background-color: var(--body-bg-color);
+}
+
+h3 {
+    /* h3 */
+    font-family: var(--title-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.188rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+h4 {
+    /* h4 */
+    font-family: var(--title-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+
+    color: var(--title-color);
+}
+
+h5 {
+    /* h5 */
+    font-family: var(--title-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.938rem;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+}
+
+.container {
+    max-width: 1200px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto;
+}
+
+/* User Interface
+========================================================================== */
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid transparent;
+    padding: 14px 44px;
+    font-family: var(--btn--font-family);
+    font-size: 1.063rem;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    border-radius: 100px;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-arrow {
+    display: block;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    border: 2px solid transparent;
+    font-family: var(--btn--font-family);
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    border-radius: 50%;
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out, box-shadow .2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #292929;
+    background-color: #F1CDB3;
+    border-color: #F1CDB3;
+}
+
+.btn-primary:hover {
+    color: #292929;
+    background-color: #FDDCC4;
+    border-color: #FDDCC4;
+}
+
+.btn-outline-primary {
+    color: #292929;
+    background-color: transparent;
+    background-image: none;
+    border-color: #F1CDB3;
+}
+
+.btn-outline-primary:hover {
+    color: #292929;
+    background-color: #FDDCC4;
+    border-color: #FDDCC4;
+}
+
+.btn-outline-secondary {
+    color: #292929;
+    background-color: transparent;
+    background-image: none;
+    border-color: #CDCDCD;
+    filter: brightness(0) saturate(100%) invert(96%) sepia(0%) saturate(0%) hue-rotate(177deg) brightness(88%) contrast(88%);
+}
+
+.btn-outline-secondary:hover {
+    color: #292929;
+    background-color: inherit;
+    border-color: #CDCDCD;
+}
+
+/* Icons
+========================================================================== */
+i {
+    flex: 0 0 auto;
+}
+
+i.creditcard-icon {
+    display: inline-block;
+    width: 30px;
+    height: 23px;
+    background-image: url("../../../assets/icons/credit-card.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+i.phone-icon {
+    display: inline-block;
+    width: 40px;
+    height: 32px;
+    background-image: url("../../../assets/icons/phone.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+i.mail-icon {
+    display: inline-block;
+    width: 40px;
+    height: 32px;
+    background-image: url("../../../assets/icons/mail.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+i.location-icon {
+    display: inline-block;
+    width: 22px;
+    height: 32px;
+    background-image: url("../../../assets/icons/pin.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
