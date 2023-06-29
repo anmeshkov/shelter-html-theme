@@ -1,6 +1,6 @@
 # Shelter HTML Theme
 [Task](https://github.com/rolling-scopes-school/tasks/blob/master/tasks/shelter/shelter.md)  
-[Demo](https://anmeshkov.github.io/NOEMI_Modern/)  
+[Demo](https://anmeshkov.github.io/shelter-html-theme/pages/main/index.html)  
 
 ## Описание проекта
 Shelter - это проект, состоящий из двух страниц.  
